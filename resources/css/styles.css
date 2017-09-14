@@ -1,0 +1,166 @@
+html{
+  font-size: 18px
+}
+
+header{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headertop{
+  background-color: black;
+
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+
+
+}
+
+.headercontent{
+  width: 960px;
+  background-color: black;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2.5rem;
+  margin-left: 5rem;
+  margin: 0px auto;
+}
+
+.headercontent #logo{
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+
+}
+
+
+.arrivalcontainer{
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  margin: 0px auto;
+  height: 9rem;
+  font-weight: bold;
+
+}
+
+.arrivalcontainer h3{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+
+}
+
+.arrivalcontainer h1{
+
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: firebrick;
+  color: white;
+  margin-top: 7.75rem;
+}
+
+nav ul{
+  width: 960px;
+  margin: 0px auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  list-style-type: none;
+
+}
+
+ul {
+  width: 960px;
+  text-align: center;
+  margin: 0px auto;
+/* option 2 - not getting the li centered with space
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+*/
+}
+
+ul li{
+  /* option 1 - not getting the li centered with space*/
+  display: inline-block;
+  margin-left: 0;
+  padding-right: 5rem;
+
+}
+
+.maincontainer{
+  width: 960px;
+  display: flex;
+
+
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+.containers{
+  border: 4px solid black;
+  height: 15rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 2rem;
+
+}
+
+.containers span{
+  margin-top: 2.0rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  border: 4px solid black;
+}
+
+main img{
+  height: 9rem;
+  width: 75%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-self: center;
+
+}
+
+#container1{
+
+}
+
+footer{
+  background-color: black;
+  height: 5rem;
+
+}
+
+footer p{
+  width: 960px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
